@@ -1,0 +1,14 @@
+{
+  "name": "55海淘工具 by dwz",
+  "description": "55海淘工具. 用于提取SKUID等等. contact dwz for support",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+      "default_title": "55海淘工具 by dwz",
+      "default_icon": "shield.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
