@@ -9,6 +9,11 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 2000)
     });
 
+    document.querySelector('#btnQuery').addEventListener('click', function(){
+        var value = document.querySelector('#queryurl').value;
+        window.open('http://121.40.253.245:8897/prodb?type=info&url=' + encodeURIComponent(value));
+    });
+
     chrome.tabs.executeScript(null,
     {
         code: 'document.body.innerHTML.match(\/"spuid"\s?:\\s?"(.*?)"\\s?\/)[1]'
@@ -28,5 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
         code: 'document.body.innerHTML.match(\/"pageUrl"\s?:\\s?"(.*?)"\\s?\/)[1]'
     }, function(data){
         document.querySelector('input#pageurl').value = data;
+        document.querySelector('input#queryurl').value = data;
     })
+
+
 });
