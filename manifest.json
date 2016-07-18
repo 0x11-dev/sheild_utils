@@ -1,7 +1,7 @@
 {
   "name": "55海淘工具 by dwz",
   "description": "55海淘工具. 用于提取SKUID,源站地址, URLNO等等. contact dwz for support",
-  "version": "2.0",
+  "version": "4.0",
   "permissions": [
     "tabs", "http://*/*", "https://*/*"
   ],
@@ -10,5 +10,5 @@
       "default_icon": "shield.png",
       "default_popup": "popup.html"
   },
-  "manifest_version": 3
+  "manifest_version": 4
 }
