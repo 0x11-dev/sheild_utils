@@ -1,0 +1,19 @@
+{
+  "name": "haitao_util",
+  "version": "1.0.0",
+  "description": "sheld's toolbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"info: test\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levin-du/sheild_utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levin-du/sheild_utils/issues"
+  },
+  "homepage": "https://github.com/levin-du/sheild_utils#readme"
+}
