@@ -3,6 +3,9 @@ language: javascript
 node_js:
     - "5"
 
+script:
+    - npm test    
+
  
     
 
