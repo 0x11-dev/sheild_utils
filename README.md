@@ -1,4 +1,4 @@
-## Shield's Toolbox
+## Shield's Toolbox [![Build Status](https://travis-ci.org/levin-du/sheild_utils.svg?branch=master)](https://travis-ci.org/levin-du/sheild_utils)
 ### Features
 - Extract SPUID
 - Extract URINO
